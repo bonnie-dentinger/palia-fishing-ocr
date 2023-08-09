@@ -4,3 +4,4 @@
 /venv
 .env
 main.spec
+config.py

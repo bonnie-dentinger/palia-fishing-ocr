@@ -2,7 +2,6 @@ import screen_ocr
 from datetime import datetime
 from pymongo import MongoClient
 import os
-import dotenv
 import time
 
 
@@ -33,7 +32,7 @@ def run_reader():
         initial_caught = location['total_caught']
         total_fish = initial_caught + 1
         data2 = db.fishing_locations.update_one({ 'location': locations, 'time_of_day': time_of_day, 'bait': bait }, { '$set': { 'total_caught': total_fish } })
-        print(f'Caught {found_name}! {fish_caught} total {found_name} caught.')
+        print(f'Caught {found_name}! Users have caught {fish_caught} {found_name} in the {time_of_day.lower()}.')
         time.sleep(20)
 
 def calculate_palia_tod():
@@ -87,53 +86,15 @@ def get_fish_from_results(results_string, fish_names):
             return fish_name
     return None
 
-# only run this once
-def set_up_fish():
-    # open fish_list.txt
-    with open('fish_list.txt', 'r') as f:
-        for line in f:
-            line = line.split(',')
-            name = line[0]
-            time_of_day = line[1]
-            location = line[2]
-            requires = line[3]
-            cost = line[4]
-            locations = location.split('/')
-            times_of_day = time_of_day.split('/')
-
-            # create fish
-            response = supabase.table('Fish').insert([{ 'name': name, 'bait': requires, 'locations': locations, 'times_of_day': times_of_day, 'sells_for': cost }]).execute()
-            print(response)
-
-# only run this once
-def set_up_locations_times():
-    locations = []
-    bait = ["None", "Worm", "Glow Worm"]
-    times_of_day = ["Morning", "Day", "Evening", "Night", "All Day"]
-    with open('fish_list.txt', 'r') as f:
-        for line in f:
-            line = line.split(',')
-            location = line[2]
-            if location not in locations:
-                locations.append(location)
-
-    locations = list(set(locations))
-    for location in locations:
-        for time in times_of_day:
-            for bait_type in bait:
-                response = supabase.table('TotalFishPerLocationAndTime').insert([{ 'location': location, 'time_of_day': time, 'total_fish': 0, 'bait': bait_type }]).execute()
-                print(response)
-
 if __name__ == '__main__':
-    print('running')
-    dotenv.load_dotenv()
+    print('Welcome to the Palia Fishing OCR! Press Ctrl+C to exit.')
+    print('Make sure you have the Palia window open and and in windowed fullscreen mode.')
+    print('Start fishing!')
 
-    MONGODB_URI = os.getenv('MONGODB_URI')
+    from config import MONGODB_URI
     client = MongoClient(MONGODB_URI)
 
     db = client['palia']
 
     while True:
         run_reader()
-    # set_up_fish()
-    # set_up_locations_times()
