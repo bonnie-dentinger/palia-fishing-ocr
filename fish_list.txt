@@ -1,0 +1,81 @@
+Albino Eel,All Day,Bahari Caves,Worm,35
+Alligator Gar,All Day,Kilima Lake,Glow Worm,80
+Bahari Bass,All Day,Bahari Coast,None,23
+Bahari Bream,All Day,Bahari Coast,Worm,39
+Bahari Pike,All Day,Bahari Rivers,Glow Worm, 80
+Barracuda,Evening/Night,Bahari Coast,None,50
+Bat Ray,All Day,Bahari Caves,Worm,75
+Beluga Sturgeon,All Day,Kilima Lake,Glow Worm,80
+Black Sea Bass,All Day,Bahari Coast,Glow Worm,85
+Blobfish,All Day,Bahari Caves,Glow Worm,75
+Blue Marlin,All Day,Bahari Coast,Worm,145
+Blue Spotted Ray,Morning/Day/Evening,Bahari Coast,Glow Worm,210
+Bluefin Tuna,All Day,Bahari Coast,Worm,39
+Cactus Moray,Day/Night,Bahari Coast,Glow Worm,125
+Calico Koi,All Day,Kilima Pond/Bahari Ponds,None,23
+Cantankerous Koi,Day/Night,Kilima Pond/Bahari Ponds,None,50
+Channel Catfish,All Day,Kilima Rivers,None,47
+Chub,AllDay,Bahari Rivers,Glow Worm,115
+Cloudfish,Morning/Day,Kilima Pond/Bahari Ponds,Glow Worm,210
+Crimson Fangtooth,All Day,Bahari Caves,Glow Worm,115
+Crucian Carp,All Day,Kilima Rivers,Glow Worm,80
+Cutthroat Trout,All Day,Bahari Rivers,Worm,70
+Dawn Ray,Morning,Bahari Rivers,None,47
+Duskray,Evening,Bahari Rivers,None,47
+Enchanted Pupfish,All Day,Kilima Lake,Glow Worm,115
+Energized Piranha,All Day,Kilima Rivers,Worm,135
+Eyeless Minnow,All Day,Bahari Caves,None,20
+Fairy Carp,Morning/Evening,Kilima Pond/Bahari Ponds,Worm,145
+Fathead Minnow,All Day,Bahari Rivers,Glow Worm,80
+Flametongue Ray,Morning/Day,Kilima Rivers,Glow Worm,0
+Freshwater Eel,Morning/Night,Kilima Rivers,Worm,70
+Giant Goldfish,All Day,Kilima Pond/Bahari Ponds,Glow Worm,0
+Giant Kilima Stingray,Morning/Evening,Kilima Lake,Glow Worm,0
+Gillyfin,All Day,Kilima Lake,None,20
+Golden Salmon,Morning/Day,Kilima Rivers,Worm,35
+Honey Loach,Day/Night,Bahari Rivers,Glow Worm, 115
+Hypnotic Moray,All Day,Bahari Caves,Glow Worm,205
+Indigo Lamprey,Evening/Night,Kilima Rivers,Glow Worm,115
+Kenli's Carp,All Day,Kilima Rivers,Glow Worm,205
+Kilima Catfish,All Day,Kilima Pond/Bahari Ponds,Worm,39
+Kilima Greyling,All Day,Kilima Rivers,Glow Worm,115
+Kilima Redfin,All Day,Bahari Rivers,Worm,35
+Largemouth Bass,All Day,Kilima Lake,Worm,33
+Long Nosed Unicorn Fish,Day,Bahari Coast,Glow Worm,410
+Longnosed Unicorn Fish,Day,Bahari Coast,Glow Worm,0
+Midnight Paddlefish,Night,Kilima Lake,Glow Worm,185
+Mirror Carp,All Day,Kilima Pond/Bahari Ponds,Worm,75
+Mottled Gobi,All Day,Kilima Pond/Bahari Ponds,Glow Worm,85
+Mudminnow,All Day,Kilima Pond/Bahari Ponds,None,23
+Mutated Angler,All Day,Bahari Caves,Worm,145
+Oily Anchovy,All Day,Bahari Rivers,Worm,35
+Orange Bluegill,All Day,Kilima Pond/Bahari Ponds,Worm,39
+Paddlefish,Morning/Day/Evening,Bahari Rivers,Worm,70
+Painted Perch,All Day,Kilima Lake,Worm,33
+Platinum Chad,All Day,Kilima Rivers,Glow Worm,80
+Prism Trout,Morning/Day,Kilima Lake,Worm,60
+Radiant Sunfish,All Day,Kilima Rivers,Worm,135
+Rainbow Trout,All Day,Kilima Rivers,None,47
+Red-bellied Piranha,All Day,Kilima Rivers,Worm,35
+Ribbontail Ray,Morning/Evening,Bahari Coast,Worm,75
+Rosy Bitterling,All Day,Bahari Rivers,None,21
+Sardine,All Day,Bahari Coast,None,23
+Scarlet Koi,All Day,Kilima Pond/Bahari Ponds,Glow Worm,85
+Shimmerfin,All Day,Kilima Lake,Worm,130
+Silver Salmon,Evening/Night,Kilima Rivers,None,21
+Silvery Minnow,All Day,Bahari Rivers,None,21
+Smallmouth Bass,All Day,Kilima Lake,Worm,33
+Spotted Bullhead,All Day,Kilima Rivers,None,21
+Stalking Catfish,Evening/Night,Kilima Pond/Bahari Ponds,Glow Worm,125
+Stickleback,Morning/Day,Kilima Rivers,Worm,70
+Stonefish,All Day,Bahari Caves,Glow Worm,80
+Stormray,Morning/Evening,Bahari Rivers,Glow Worm,205
+Striped Dace,All Day,Kilima Rivers,None,21
+Striped Sturgeon,Evening/Night,Kilima Lake,Worm,60
+Swordfin Eel,All Day,Bahari Rivers,Glow Worm,0
+Thundering Eel,All Day,Bahari Rivers,Worm,135
+Umbran Carp,All Day,Bahari Caves,None,47
+Void Ray,Day/Evening/Night,Bahari Caves,Glow Worm,375
+Willow Lamprey,Night,Bahari Rivers,Worm,135
+Yellow Perch,All Day,Bahari Rivers,None,21
+Yellowfin Tuna,All Day,Bahari Coast,Glow Worm,85
