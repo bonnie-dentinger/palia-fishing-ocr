@@ -13,7 +13,7 @@ def run_reader():
 
     # try to prevent false positives, work in progress
     needed_words = ['Press', 'Enter', 'to', 'chat']
-    not_needed_words = ['Value', 'Inventory', 'Next shipment']
+    not_needed_words = ['Value', 'Inventory', 'Next shipment', 'Search']
     if not all(word in results_as_string for word in needed_words) or any(word in results_as_string for word in not_needed_words):
         return
     
@@ -89,7 +89,7 @@ def get_fish_from_results(results_string, fish_names):
 if __name__ == '__main__':
     print('Welcome to the Palia Fishing OCR! Press Ctrl+C to exit.')
     print('Make sure you have the Palia window open and and in windowed fullscreen mode.')
-    print('Start fishing!')
+    print('Happy fishing!')
 
     from config import MONGODB_URI
     client = MongoClient(MONGODB_URI)
