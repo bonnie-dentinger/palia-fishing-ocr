@@ -12,7 +12,7 @@ def run_reader():
     results_as_string = results.as_string()
 
     # try to prevent false positives, work in progress
-    needed_words = ['Press', 'Enter', 'to', 'chat']
+    needed_words = ['+1', 'Press', 'Enter', 'to', 'chat']
     not_needed_words = ['Value', 'Inventory', 'Next shipment', 'Search']
     if not all(word in results_as_string for word in needed_words) or any(word in results_as_string for word in not_needed_words):
         return
@@ -82,7 +82,7 @@ def get_fish():
 def get_fish_from_results(results_string, fish_names):
     for fish in fish_names:
         fish_name = fish.strip()
-        if fish_name in results_string:
+        if '+1 ' + fish_name in results_string:
             return fish_name
     return None
 
