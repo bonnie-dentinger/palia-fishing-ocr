@@ -20,7 +20,7 @@ Cloudfish,Morning/Day,Kilima Pond/Bahari Ponds,Glow Worm,210
 Crimson Fangtooth,All Day,Bahari Caves,Glow Worm,115
 Crucian Carp,All Day,Kilima Rivers,Glow Worm,80
 Cutthroat Trout,All Day,Bahari Rivers,Worm,70
-Dawn Ray,Morning,Bahari Rivers,None,47
+Dawnray,Morning,Bahari Rivers,None,47
 Duskray,Evening,Bahari Rivers,None,47
 Enchanted Pupfish,All Day,Kilima Lake,Glow Worm,115
 Energized Piranha,All Day,Kilima Rivers,Worm,135

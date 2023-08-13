@@ -32,7 +32,7 @@ def run_reader():
         initial_caught = location['total_caught']
         total_fish = initial_caught + 1
         data2 = db.fishing_locations.update_one({ 'location': locations, 'time_of_day': time_of_day, 'bait': bait }, { '$set': { 'total_caught': total_fish } })
-        print(f'Caught {found_name}! Users have caught {fish_caught} {found_name} in the {time_of_day.lower()}.')
+        print(f'Caught {found_name}! Users have caught {fish_caught} {found_name} in the {time_of_day.lower()}. Total: {total_fish}')
         time.sleep(20)
 
 def calculate_palia_tod():
