@@ -12,3 +12,5 @@ Please check it out if youre interested in a fishing guide that allows you to se
 2. Ensure that your game is running in borderless windowed mode (full screen does not work).
 3. You must have the game as your active window for the OCR to pick up the text in it.
 4. Simply close out of the window when you're done!
+
+# Due to having reached enough data for my web app, I have removed the releases for this app. Thank you to those who have contributed!
